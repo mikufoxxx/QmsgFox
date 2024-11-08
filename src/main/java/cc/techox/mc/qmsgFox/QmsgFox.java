@@ -10,6 +10,7 @@ public final class QmsgFox extends JavaPlugin {
     public void onEnable() {
         // Plugin startup logic
         sayConsole("§6QmsgFox plugin startup");
+        Bukkit.getPluginManager().registerEvents(new PmsgListener(), this);
     }
 
     @Override
