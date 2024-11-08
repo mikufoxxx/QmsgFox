@@ -1,0 +1,7 @@
+name: QmsgFox
+version: '1.0-SNAPSHOT'
+main: cc.techox.mc.qmsgFox.QmsgFox
+api-version: '1.21'
+prefix: QmsgFox
+authors: [MikuFox]
+description: A high-version plugin for QQ and Minecraft Server communication.
