@@ -4,8 +4,6 @@ import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 
-import java.sql.SQLOutput;
-
 public class PmsgListener implements Listener {
     @EventHandler
     public void onPlayerChat(AsyncPlayerChatEvent playerChatEvent){
